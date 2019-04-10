@@ -19,6 +19,6 @@ public class RestConfig {
     @Bean
     public IRule muRule(){
         return new RoundRobinRule();    //轮询
-//        return new RandomRule();      //随机
+//        return new RandomRule();      //随机  
     }
 }
