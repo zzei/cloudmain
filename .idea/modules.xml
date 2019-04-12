@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka7001/cloud-eureka7001.iml" filepath="$PROJECT_DIR$/cloud-eureka7001/cloud-eureka7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka7002/cloud-eureka7002.iml" filepath="$PROJECT_DIR$/cloud-eureka7002/cloud-eureka7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-user-customer-feign/cloud-user-customer-feign.iml" filepath="$PROJECT_DIR$/cloud-user-customer-feign/cloud-user-customer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-user-customer80/cloud-user-customer80.iml" filepath="$PROJECT_DIR$/cloud-user-customer80/cloud-user-customer80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-user-provide8001/cloud-user-provide8001.iml" filepath="$PROJECT_DIR$/cloud-user-provide8001/cloud-user-provide8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudmain.iml" filepath="$PROJECT_DIR$/cloudmain.iml" />

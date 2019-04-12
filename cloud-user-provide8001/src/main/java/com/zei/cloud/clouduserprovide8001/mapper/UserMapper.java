@@ -12,7 +12,7 @@ public interface UserMapper {
     @Insert("insert into user(name,account,password) values(#{name},#{account},#{password})")
     public int add(UserEntity userEntity);
 
-    @Select("select * from user where id = #{id}")
+    @Select("select * from user where user_id = #{id}")
     public UserEntity get(int id);
 
     @Select("select * from user")

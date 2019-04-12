@@ -24,8 +24,8 @@ public class UserController {
 
     @GetMapping("/customer/get/{id}")
     public UserEntity get(@PathVariable("id") int id) {
-
-        return restTemplate.getForObject(REST_URL_PREFIX+"/get"+id,UserEntity.class);
+        System.out.println("--------------"+id);
+        return restTemplate.getForObject(REST_URL_PREFIX+"/get/"+id,UserEntity.class);
     }
 
     @GetMapping("/customer/findAll")

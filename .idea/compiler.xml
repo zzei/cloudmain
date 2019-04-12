@@ -9,6 +9,7 @@
         <module name="api" />
         <module name="cloud-eureka7001" />
         <module name="cloud-eureka7002" />
+        <module name="cloud-user-customer-feign" />
         <module name="cloud-user-customer80" />
         <module name="cloud-user-provide8001" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="api" target="1.8" />
       <module name="cloud-eureka7001" target="1.8" />
       <module name="cloud-eureka7002" target="1.8" />
+      <module name="cloud-user-customer-feign" target="1.8" />
       <module name="cloud-user-customer80" target="1.8" />
       <module name="cloud-user-provide8001" target="1.8" />
       <module name="cloudmain" target="1.8" />

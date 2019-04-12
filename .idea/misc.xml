@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/cloud-eureka7002/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-user-provide8001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-user-customer80/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-user-customer-feign/pom.xml" />
       </list>
     </option>
   </component>
