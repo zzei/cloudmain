@@ -7,3 +7,9 @@
   customer使用ribbon进行负载均衡
   
   ---20190410
+
+  添加feign负载均衡模块，并集成hystrix实现服务降级
+  （注意！开启feign.hystrix.enabled=true 必须写在application.properties里，yml里不生效）
+  provide模块使用hystrix实现服务熔断
+  
+  ---20190412
