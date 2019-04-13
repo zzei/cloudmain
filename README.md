@@ -13,3 +13,9 @@
   provide模块使用hystrix实现服务熔断
   
   ---20190412
+
+  添加zuul网关模块gateway
+  添加config配置模块，含config3344、eureka、provide
+  customer-config模块在调用provide的时候，调用不成功，找不到provide，故暂时不做客户端的集成配置
+  
+  ---20190413
