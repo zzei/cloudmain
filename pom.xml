@@ -16,6 +16,11 @@
         <module>cloud-user-provide8001</module>
         <module>cloud-user-customer80</module>
         <module>cloud-user-customer-feign</module>
+        <module>cloud-zuul-gateway9527</module>
+        <module>cloud-config3344</module>
+        <module>cloud-config-eureka</module>
+        <module>cloud-config-provide</module>
+        <module>cloud-config-customer</module>
     </modules>
 
     <!--配置springboot-->

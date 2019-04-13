@@ -1,18 +1,20 @@
-package com.zei.cloud.cloudusercustomer80;
+package com.zei.cloud.cloudconfigcustomer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.context.annotation.ComponentScan;
 
+@EnableFeignClients(basePackages = {"com.zei.cloud"})
 @EnableEurekaClient
 @ComponentScan("com.zei.cloud")
 @SpringBootApplication
-public class CloudUserCustomer80Application {
+public class CloudConfigCustomerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CloudUserCustomer80Application.class, args);
+		SpringApplication.run(CloudConfigCustomerApplication.class, args);
 	}
 
 }

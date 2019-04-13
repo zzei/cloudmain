@@ -1,4 +1,4 @@
-package com.zei.cloud.cloudusercustomer80;
+package com.zei.cloud.cloudzuulgateway9527;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CloudUserCustomer80ApplicationTests {
+public class CloudZuulGateway9527ApplicationTests {
 
 	@Test
 	public void contextLoads() {

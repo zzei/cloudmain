@@ -10,11 +10,12 @@
 	</parent>
 
 	<groupId>com.zei.cloud</groupId>
-	<artifactId>cloud-eureka7002</artifactId>
+	<artifactId>cloud-config-eureka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cloud-eureka7002</name>
+	<name>cloud-config-eureka</name>
 
 	<dependencies>
+		<!-- SpringCloudConfig配置 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>

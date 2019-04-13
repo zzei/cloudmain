@@ -1,0 +1,25 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: zuul-gateway9527
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway9527.com
+    prefer-ip-address: true
+
+info:
+  bulid.artifactId: $project.artifactId$
+  bulid.version: $project.version$
+  server.name: zuul-gateway9527
+
+zuul:
+  prefix: /provide
+  ignored-services: "*"
+  routes:
+    myuser.serviceId: user-provide8001
+    myuser.path: /**

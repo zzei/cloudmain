@@ -1,6 +1,7 @@
 package com.zei.cloud.cloudusercustomerfeign.controller;
 
 import com.zei.cloud.entity.UserEntity;
+import com.zei.cloud.service.ConfigFeignClientService;
 import com.zei.cloud.service.FeignClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

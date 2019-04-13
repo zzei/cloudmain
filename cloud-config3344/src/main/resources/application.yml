@@ -1,0 +1,10 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: config3344
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zzei/cloud-config.git

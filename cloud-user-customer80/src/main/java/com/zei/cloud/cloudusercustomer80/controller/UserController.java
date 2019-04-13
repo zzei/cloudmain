@@ -11,10 +11,15 @@ import java.util.List;
 public class UserController {
 
 //    private static final String REST_URL_PREFIX = "http://localhost:8001";
-    private static final String REST_URL_PREFIX = "http://user-provide8001";
+    private static final String REST_URL_PREFIX = "http://USER-PROVIDE8001";
 
     @Autowired
     private RestTemplate restTemplate;
+
+//    @GetMapping("/test")
+//    public String test(){
+//        return restTemplate.getForObject(REST_URL_PREFIX+"/test",String.class);
+//    }
 
     @PostMapping("/customer/add")
     public boolean add(UserEntity userEntity) {
